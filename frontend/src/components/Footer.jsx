@@ -20,8 +20,8 @@ export default function Footer() {
               <img className="logo-pic" src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078016/logo_vlpdzk.png" alt="kusco.png" />
             <div className="line-through"></div>
             <div className="social-footer">
-              <a href="facebook.com/kuscococina"><i className="fab fa-facebook-square fa-2x"></i></a>
-              <a href="instagram.com/cateringkuscococina"><i className="fab fa-instagram fa-2x"></i></a>
+              <a href="www.facebook.com/kuscococina" target="_blank"><i className="fab fa-facebook-square fa-2x"></i></a>
+              <a href="www.instagram.com/cateringkuscococina" target="_blank"><i className="fab fa-instagram fa-2x"></i></a>
             </div>
           </div>
           <div className="text-center">

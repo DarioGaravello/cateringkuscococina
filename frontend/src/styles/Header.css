@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.background-header{
+    background-image: url('https://res.cloudinary.com/dh3kskapq/image/upload/v1601075423/eqilbllpmwotcgjvdoli.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.head{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.header-container{
+    opacity: 0;
+    transition: all ease-in-out 1s;
+}
+
+.header-container-on{
+    opacity: 1;
+    transition: all ease-in-out 1s;
+}
+
+.kusco{
+    font-family: 'Cookie', cursive;
+    text-transform: none;
+    font-size: 60px;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+@media screen and (max-width: 780px){
+    .kusco{
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .kusco{
+        font-size: 48px;
+    }
+}

@@ -1,0 +1,129 @@
+.service-container{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.line-canvas{
+    width: 10%;
+    height: 3px;
+    align-self: center;
+    transition: all ease-in-out 1s;
+}
+
+.line-canvas-two{
+    width: 50%;
+    height: 3px;
+    align-self: center;
+    transition: all ease-in-out 1s;
+}
+
+.title-budget{
+    opacity: 0;
+    transition: opacity ease-in-out 1s;
+}
+
+.title-budget-on{
+    opacity: 1;
+    transition: opacity ease-in-out 1s;
+}
+
+.box-budget{
+    padding: 2rem;
+}
+
+.box-budget a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all ease-in-out .4s;
+}
+
+.box-budget a:hover{
+    color: #c2c2c2;
+}
+
+.box-estimate{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.estimate{
+    display: flex;
+    flex-flow: column wrap;
+    border: 10px double #fff;
+    margin: 20px;
+}
+
+.box-pics{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1rem;
+    filter: invert(1);
+    transition: all ease-in-out .5s;
+}
+
+.estimate>h1{
+    color: #fff;
+}
+
+.box-pics:hover{
+    filter: invert(0);
+    transition: all ease-in-out .5s;
+}
+
+.box-pics img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.box-pics img:hover{
+    background-color: #fff;
+    transition: all ease-in-out 1s;
+}
+
+@media screen and (max-width: 551px){
+    .line-canvas-two{
+        width: 180px;
+        height: 3px;
+        transition: all ease-in-out 1s;
+    }
+
+    .estimate{
+        padding: 1rem;
+    }
+
+    .estimate h1{
+        font-size: 22px;
+    }
+    
+    .box-pics{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .title-budget-on,
+    .title-budget{
+        font-size: 22px;
+    }
+
+    .text-service-on{
+        font-size: 18px;
+    }
+
+    .text-service{
+        font-size: 18px;        
+    }
+}
+
+@media screen and (max-width: 280px){
+    .title-budget-on,
+    .title-budget{
+        font-size: 18px;
+    }
+}

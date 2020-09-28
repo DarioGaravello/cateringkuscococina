@@ -1,0 +1,38 @@
+.background-about{
+    background-image: url('https://res.cloudinary.com/dh3kskapq/image/upload/v1601075534/wh9iyo7svmhtqcif1pqt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-about{
+    background-color: #000000b8;
+}
+
+.title-accordion{
+    font-size: 15px;
+    color: #fff;
+}
+
+.button-gallery{
+    border-radius: 2px;
+    background: #000;
+    border: 15px double #fff;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 780px){
+    .container-about h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .title-accordion{
+        font-size: 12px;
+    }
+
+    .button-gallery{
+        font-size: 12px;
+    }
+}

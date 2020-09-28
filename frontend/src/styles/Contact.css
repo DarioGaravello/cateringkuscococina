@@ -1,0 +1,90 @@
+.form-content:first-child{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form-content:last-child{
+    background-color: rgba(3, 153, 121, 0.9);
+    width: 100%;
+}
+
+.form-content p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.background-form{
+    background-image: url('https://res.cloudinary.com/dh3kskapq/image/upload/v1601075192/g9a39hdl6oxxkauki0my.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+#textarea:focus{
+    background: none;
+    color: #fff;
+}
+
+.form-group{
+    padding-top: 3rem;
+}
+
+.info-items{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.row-icons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.row-icons>i,
+.info-items>i{
+    margin: 15px;
+    align-self: center;
+    font-size: 1.8em;
+    color: #000;
+}
+
+.row-icons>i>p,
+.info-items>i>p{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.title-form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.title-info{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#text{
+    width: 75%;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    margin: auto;
+}
+
+.note{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px){
+    .title-info{
+        margin: auto;
+        width: 75%;
+        font-size: 20px;
+    }
+}

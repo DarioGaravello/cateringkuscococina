@@ -30,9 +30,9 @@ app.use((0, _cors["default"])()); //Routes
 
 app.use(_app["default"]); //Statics Files
 
-app.use(_express["default"]["static"](_path["default"].resolve(__dirname, '../../dist')));
+app.use(_express["default"]["static"](_path["default"].resolve(__dirname, '../frontend/dist')));
 app.use('*', function (req, res) {
-  res.sendFile(_path["default"].resolve(__dirname, '../../dist/index.html'), function (err) {
+  res.sendFile(_path["default"].resolve(__dirname, '../frontend/dist/index.html'), function (err) {
     if (err) {
       res.status(500).send(err);
     }

@@ -33,7 +33,7 @@ export default function Header() {
                 <div className="head">
                   <img
                     className="logo"
-                    src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078016/logo_vlpdzk.png"
+                    src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078016/kusco_gallery/logo_vlpdzk.png"
                     alt="kusco.png"
                   />
                   <h3 className="text-white">Catering</h3>

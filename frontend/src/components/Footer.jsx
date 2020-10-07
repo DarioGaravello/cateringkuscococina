@@ -17,7 +17,7 @@ export default function Footer() {
               <ListGroupItem><Link className="nav-link p-0" to="/contact">Contacto</Link></ListGroupItem>
             </ListGroup>
             <div className="line-through"></div>
-              <img className="logo-pic" src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078016/logo_vlpdzk.png" alt="kusco.png" />
+              <img className="logo-pic" src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078016/kusco_gallery/logo_vlpdzk.png" alt="kusco.png" />
             <div className="line-through"></div>
             <div className="social-footer">
               <a href="www.facebook.com/kuscococina" target="_blank"><i className="fab fa-facebook-square fa-2x"></i></a>

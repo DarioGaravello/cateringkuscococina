@@ -31,13 +31,13 @@ export default function Service() {
             <h1>Combos</h1>
             <div className="box-pics">
               <a href="#">
-                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078012/combo-i_rsmxfa.png"/>
+                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078012/kusco_gallery/combo-i_rsmxfa.png"/>
               </a>
               <a href="#">
-                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078012/combo-ii_jzhcrv.png"/>
+                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078012/kusco_gallery/combo-ii_jzhcrv.png"/>
               </a>
               <a href="#">
-                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078012/combo-iii_cyigyn.png"/>
+                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078012/kusco_gallery/combo-iii_cyigyn.png"/>
               </a>
             </div>
           </div>
@@ -45,13 +45,13 @@ export default function Service() {
             <h1>Finger Food</h1>
             <div className="box-pics">
               <a href="#">
-                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078013/finger-food-i_fddxue.png"/>
+                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078013/kusco_gallery/finger-food-i_fddxue.png"/>
               </a>
               <a href="#">
-                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078013/finger-food-ii_kkbgag.png"/>
+                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078013/kusco_gallery/finger-food-ii_kkbgag.png"/>
               </a>
               <a href="#">
-                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078013/finger-food-iii_llvriy.png"/>
+                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078013/kusco_gallery/finger-food-iii_llvriy.png"/>
               </a>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Service() {
             <h1>Islas</h1>
             <div className="box-pics">
               <a href="#">
-                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078013/island_mhq3bi.png"/>
+                <img src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601078013/kusco_gallery/island_mhq3bi.png"/>
               </a>
             </div>
           </div>

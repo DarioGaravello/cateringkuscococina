@@ -6,12 +6,7 @@ const router = Router();
 router.get('/images', async (req, res) => {
     const images = await Image.find();
     res.status(200).json(images);
-})
-
-router.put('/images/:id', async (req, res) => {
-    const images = await Image.findByIdAndUpdate(req.params.id, req.body);
-    res.status(204).json(images);
-    console.log(images);
+    res.redirect('/');
 })
 
 router.post('/contact/mail', async (req, res) => {

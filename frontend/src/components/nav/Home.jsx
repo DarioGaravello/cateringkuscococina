@@ -14,7 +14,7 @@ export default function Home() {
           </div>
           <div className="col">
             <img
-              src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601077897/welcome1_x6k1md.jpg"
+              src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601077897/kusco_gallery/welcome1_x6k1md.jpg"
               alt="img.jpg"
             />
           </div>
@@ -24,7 +24,7 @@ export default function Home() {
         <div className="container-home">
           <div className="col">
             <img
-              src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601077896/welcome2_bfzovd.jpg"
+              src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601077896/kusco_gallery/welcome2_bfzovd.jpg"
               alt="img.jpg"
             />
           </div>
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
           <div className="col">
             <img
-              src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601077897/welcome3_c6l1xa.jpg"
+              src="https://res.cloudinary.com/dh3kskapq/image/upload/v1601077897/kusco_gallery/welcome3_c6l1xa.jpg"
               alt="img.jpg"
             />
           </div>
